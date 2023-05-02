@@ -1,5 +1,5 @@
 # ninja log v5
-6	517	7047174601763940	CMakeFiles/Ray_Tracing_in_C__.dir/main.cpp.obj	fe7bf249b6d19ff4
-518	698	7047174603517171	Ray_Tracing_in_C__.exe	92682f170259ded
 5	1110	7047244171612156	CMakeFiles/Ray_Tracing_in_C__.dir/main.cpp.obj	fe7bf249b6d19ff4
-1112	1415	7047244174575915	Ray_Tracing_in_C__.exe	92682f170259ded
+1071	1456	7047248982384580	Ray_Tracing_in_C__.exe	4920b5d11c218b8c
+3	745	7047250502962253	build.ninja	48b523cfd70b8250
+1	1070	7047248978576855	CMakeFiles/Ray_Tracing_in_C__.dir/source/main.cpp.obj	7374076cb1f000b2

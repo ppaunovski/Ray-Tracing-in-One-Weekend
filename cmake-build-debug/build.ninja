@@ -49,11 +49,11 @@ cmake_ninja_workdir = C$:/Users/pauno/Desktop/Pajo/FINKI/Semestri/Semestar$ 4/CG
 
 build cmake_object_order_depends_target_Ray_Tracing_in_C__: phony || CMakeFiles/Ray_Tracing_in_C__.dir
 
-build CMakeFiles/Ray_Tracing_in_C__.dir/main.cpp.obj: CXX_COMPILER__Ray_Tracing_in_C___Debug C$:/Users/pauno/Desktop/Pajo/FINKI/Semestri/Semestar$ 4/CG/Ray$ Tracing$ in$ C++/main.cpp || cmake_object_order_depends_target_Ray_Tracing_in_C__
-  DEP_FILE = CMakeFiles\Ray_Tracing_in_C__.dir\main.cpp.obj.d
+build CMakeFiles/Ray_Tracing_in_C__.dir/source/main.cpp.obj: CXX_COMPILER__Ray_Tracing_in_C___Debug C$:/Users/pauno/Desktop/Pajo/FINKI/Semestri/Semestar$ 4/CG/Ray$ Tracing$ in$ C++/source/main.cpp || cmake_object_order_depends_target_Ray_Tracing_in_C__
+  DEP_FILE = CMakeFiles\Ray_Tracing_in_C__.dir\source\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Ray_Tracing_in_C__.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ray_Tracing_in_C__.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ray_Tracing_in_C__.dir\source
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/Ray_Tracing_in_C__.dir/main.cpp.obj: CXX_COMPILER__Ray_Tracing_
 #############################################
 # Link the executable Ray_Tracing_in_C__.exe
 
-build Ray_Tracing_in_C__.exe: CXX_EXECUTABLE_LINKER__Ray_Tracing_in_C___Debug CMakeFiles/Ray_Tracing_in_C__.dir/main.cpp.obj
+build Ray_Tracing_in_C__.exe: CXX_EXECUTABLE_LINKER__Ray_Tracing_in_C___Debug CMakeFiles/Ray_Tracing_in_C__.dir/source/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ray_Tracing_in_C__.dir
