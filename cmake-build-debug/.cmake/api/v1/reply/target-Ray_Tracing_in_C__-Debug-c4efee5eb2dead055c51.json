@@ -98,7 +98,9 @@
 			[
 				1,
 				2,
-				3
+				3,
+				4,
+				5
 			]
 		}
 	],
@@ -123,6 +125,16 @@
 		{
 			"backtrace" : 1,
 			"path" : "headers/ray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "headers/hittable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "headers/sphere.h",
 			"sourceGroupIndex" : 1
 		}
 	],

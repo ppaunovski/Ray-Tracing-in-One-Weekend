@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.3.1/bin/ninja/win/ninja.exe" -G Ninja -S "C:\Users\pauno\Desktop\Pajo\FINKI\Semestri\Semestar 4\CG\Ray Tracing in C++" -B "C:\Users\pauno\Desktop\Pajo\FINKI\Semestri\Semestar 4\CG\Ray Tracing in C++\cmake-build-debug"
+"C:\Program Files\JetBrains\CLion 2023.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\pauno\CLionProjects\Ray-Tracing-in-One-Weekend -B C:\Users\pauno\CLionProjects\Ray-Tracing-in-One-Weekend\cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/pauno/Desktop/Pajo/FINKI/Semestri/Semestar 4/CG/Ray Tracing in C++/cmake-build-debug
+-- Build files have been written to: C:/Users/pauno/CLionProjects/Ray-Tracing-in-One-Weekend/cmake-build-debug
