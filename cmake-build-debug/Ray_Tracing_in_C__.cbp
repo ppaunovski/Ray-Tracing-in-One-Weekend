@@ -88,6 +88,9 @@
 		<Unit filename="C:/Users/pauno/CLionProjects/Ray-Tracing-in-One-Weekend/headers/hittable.h">
 			<Option target="Ray_Tracing_in_C__"/>
 		</Unit>
+		<Unit filename="C:/Users/pauno/CLionProjects/Ray-Tracing-in-One-Weekend/headers/hittable_list.h">
+			<Option target="Ray_Tracing_in_C__"/>
+		</Unit>
 		<Unit filename="C:/Users/pauno/CLionProjects/Ray-Tracing-in-One-Weekend/headers/ray.h">
 			<Option target="Ray_Tracing_in_C__"/>
 		</Unit>
