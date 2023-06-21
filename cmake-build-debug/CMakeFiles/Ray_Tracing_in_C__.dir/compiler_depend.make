@@ -193,7 +193,9 @@ CMakeFiles/Ray_Tracing_in_C__.dir/source/main.cpp.obj: C:/Users/pauno/CLionProje
   C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
   C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
-  C:/Users/pauno/CLionProjects/Ray-Tracing-in-One-Weekend/headers/sphere.h
+  C:/Users/pauno/CLionProjects/Ray-Tracing-in-One-Weekend/headers/sphere.h \
+  C:/Users/pauno/CLionProjects/Ray-Tracing-in-One-Weekend/headers/camera.h \
+  C:/Users/pauno/CLionProjects/Ray-Tracing-in-One-Weekend/headers/constants.h
 
 
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/pstl_config.h:
@@ -221,6 +223,8 @@ C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
+
+C:/Users/pauno/CLionProjects/Ray-Tracing-in-One-Weekend/headers/camera.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2023.1.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
 
