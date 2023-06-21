@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/pauno/CLionProjects/Ray-Tracing-in-One-Weekend/headers/camera.h">
+			<Option target="Ray_Tracing_in_C__"/>
+		</Unit>
 		<Unit filename="C:/Users/pauno/CLionProjects/Ray-Tracing-in-One-Weekend/headers/color.h">
 			<Option target="Ray_Tracing_in_C__"/>
 		</Unit>
