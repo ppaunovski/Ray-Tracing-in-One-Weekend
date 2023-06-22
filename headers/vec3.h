@@ -13,12 +13,19 @@ using std::sqrt;
 
 class vec3{
 public:
+    double e[3];
+public:
     vec3() : e{0,0,0} {}
     vec3(double e0, double e1, double e2) : e{e0,e1,e2} {}
 
     double x() const {return e[0];}
     double y() const {return e[1];}
     double z() const {return e[2];}
+
+    bool near_zero() const{
+        const auto s = 1e-8;
+        return (fabs(e[0]) < s) && (fabs(e[1]) < s) && (fabs(e[2]) < s);
+    }
 
     inline static vec3 random(){
         return vec3(random_double(), random_double(), random_double());
@@ -69,9 +76,6 @@ public:
     double length() const {
         return sqrt(length_squared());
     }
-
-public:
-    double e[3];
 };
 
 // Utility functions
@@ -136,6 +140,10 @@ vec3 random_in_hemisphere(const vec3& normal) {
         return in_unit_sphere;
     else
         return -in_unit_sphere;
+}
+
+vec3 reflect(const vec3& vector, const vec3& normal){
+    return vector - 2*dot(vector, normal) * normal;
 }
 
 // Aliases for vec3
