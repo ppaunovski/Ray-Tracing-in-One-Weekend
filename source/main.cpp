@@ -55,7 +55,14 @@ int main() {
     world.add(make_shared<sphere>(point3( 1.0,    0.0, -1.0),   0.5, material_right));
     // Camera
 
-    camera camera(point3(-2,2,1), point3(0,0,-1), vec3(0,1,0), 90, aspect_ratio);
+    point3 look_from(3,3,2);
+    point3 look_at(0,0,-1);
+    vec3 view_up(0,1,0);
+    auto distance_to_focus = (look_from-look_at).length();
+    auto aperture = 2.0;
+
+    camera camera(look_from, look_at, view_up, 20, aspect_ratio, aperture, distance_to_focus);
+
     // Render image in file
 
     std::ofstream image;
