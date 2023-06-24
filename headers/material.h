@@ -54,4 +54,24 @@ public:
     }
 };
 
+
+class dielectric : public material{
+public:
+    double index_of_refraction;
+public:
+    dielectric(double index_of_refraction) : index_of_refraction(index_of_refraction){}
+
+    virtual bool scatter (const ray& ray_in, const hit_record& record, color& attenuation, ray& scattered) const override{
+        attenuation = color (1.0, 1.0, 1.0);
+        double refraction_ratio = record.front_face ? (1.0/index_of_refraction) : index_of_refraction;
+
+        vec3 unit_direction = unit_vector(ray_in.direction());
+        vec3 refracted = refract(unit_direction, record.normal, refraction_ratio);
+
+        scattered = ray(record.point, refracted);
+
+        return true;
+    }
+};
+
 #endif //RAY_TRACING_IN_C___MATERIAL_H
